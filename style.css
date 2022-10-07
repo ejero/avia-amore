@@ -72,14 +72,28 @@ main > * {
 
 /* YOUR CODE HERE */
 @media screen and (max-width: 768px) {
+
+.airplane-list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
   .airplane-card {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+
+  h2{
     width: 80%;
-    justify-content: center;
   }
 
   header{
-    display: inline;
+    display: inline-block;
+    width: 80%;
   }
+
 }
